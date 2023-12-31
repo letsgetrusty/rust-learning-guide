@@ -1,0 +1,21 @@
+[book]
+authors = ["letsgetrusty"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Let's Get Rusty"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.playground]
+editable = true
+
+[rust]
+edition = "2021"
