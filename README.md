@@ -25,7 +25,7 @@ To discuss and/or collaborate with other Rust developers, join our [Discord comm
 ## Installation
 
 ```shell
-git clone git@github.com:letsgetrusty/rust-learning-guide.git
+git clone https://github.com/letsgetrusty/rust-learning-guide.git
 
 cargo install mdbook
 
