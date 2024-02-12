@@ -30,16 +30,15 @@ fn main() {
   
   ```rust
 fn main() {
-    let side_count = 5;
-    let message = match side_count {
-        0 | 1 | 2 => "invalid shape",
-        3 => "it's a triangle",
-        4 => "it's a quadrilateral",
-        5 => "it's a pentagon",
-        6 => "it's a hexagon",
-        _ => "i don't know the name, lol",
-    };
-    println!("{message}");
+    // marks scored out of 100
+    let marks = 75u8;
+    match marks {
+        91..=100 => println!("You performed excellent!"),
+        71..=90 => println!("You performed good :)"),
+        51..=70 => println!("Your performance was average..."),
+        0..=50 => println!("You failed. Better luck next time."),
+        101..=u8::MAX => println!("Invalid marks!!!"),
+    }
 }
   ```
 </details>
